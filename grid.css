@@ -1,0 +1,23 @@
+body{
+background-color: rgb(214, 119, 87);
+}
+.contenedor{
+    background-color: white;
+    width: 100% auto;
+    height: 80vh;
+    border: black solid 3px;
+    font-size: 2rem;
+    text-align: left;
+    margin: 20px auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    grid-template-areas: ;
+}
+
+.hijo{
+    background-color:rgb(145, 62, 62);
+    border: 3px solid goldenrod;
+}
+

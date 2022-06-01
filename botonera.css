@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 1rem;
+}
+.menu{
+    list-style-type: none;
+    margin: 0.7rem;
+    background-color: rgb(142, 30, 30);
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 0.7rem;
+    background-color: rgb(153, 57, 57);
+    padding:0.7rem
+       
+}
+.menu li a{
+    text-decoration: none;
+    
+    display: inline-block;
+    color:rgb(11, 11, 11)
+}
+.menu li:hover{
+    color: rgb(191, 122, 122)
+    background-color:gold
+    }
+.menu li a:hover{
+    color:brown 
+    background-color:bisque
+}
